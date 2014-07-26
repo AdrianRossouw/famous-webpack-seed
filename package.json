@@ -1,0 +1,16 @@
+{
+  "name": "famous-webpack-seed",
+  "version": "0.0.1",
+  "description": "A seed project to get started with Webpack and Famo.us",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run lint -s"
+  },
+  "keywords": [
+    "famo.us",
+    "webpack",
+    "seed"
+  ],
+  "author": "Adrian Rossouw",
+  "license": "ISC"
+}
