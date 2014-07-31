@@ -15,9 +15,9 @@ npm install # install dependencies
 ---
 
 ###Development
-Run the dev server with ```webpack-dev-server -w```
+Run the dev server with ```webpack-dev-server```
 
-Run the linters with ```npm test```
+Go to the dev server url : ```http://localhost:8080/webpack-dev-server/bundle```
 
 ---
 
