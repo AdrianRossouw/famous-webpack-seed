@@ -8,7 +8,7 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('copy', function() {
-  return gulp.src('./index.html')
+  return gulp.src('./src/index.html')
     .pipe(gulp.dest('./dist'));
 });
 
@@ -17,4 +17,4 @@ gulp.task('deploy', function () {
     .pipe(deploy());
 });
 
-gulp.task('default', ['clean', 'copy', 'deploy']);
+gulp.task('default', ['clean', 'copy']);
